@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#1a1a1a" rx="10" ry="10" />
+  
+  <!-- Decorative elements -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#00c8ff" stroke-width="2" opacity="0.1" />
+  <circle cx="250" cy="250" r="150" fill="none" stroke="#00c8ff" stroke-width="2" opacity="0.2" />
+  
+  <!-- Abstract profile silhouette -->
+  <g>
+    <!-- Head -->
+    <circle cx="250" cy="180" r="80" fill="#333" />
+    
+    <!-- Body -->
+    <path d="M175,260 Q250,280 325,260 L325,380 Q250,400 175,380 Z" fill="#333" />
+    
+    <!-- Face features (minimalist) -->
+    <circle cx="225" cy="170" r="8" fill="#00c8ff" opacity="0.8" />
+    <circle cx="275" cy="170" r="8" fill="#00c8ff" opacity="0.8" />
+    <path d="M225,210 Q250,230 275,210" fill="none" stroke="#00c8ff" stroke-width="3" opacity="0.8" />
+  </g>
+  
+  <!-- Decorative code-like elements -->
+  <g opacity="0.3">
+    <text x="50" y="50" font-family="monospace" font-size="10" fill="#00c8ff">function developer() {</text>
+    <text x="70" y="70" font-family="monospace" font-size="10" fill="#00c8ff">  return {</text>
+    <text x="90" y="90" font-family="monospace" font-size="10" fill="#00c8ff">    creative: true,</text>
+    <text x="90" y="110" font-family="monospace" font-size="10" fill="#00c8ff">    passionate: true,</text>
+    <text x="90" y="130" font-family="monospace" font-size="10" fill="#00c8ff">    skills: ["web", "design", "code"]</text>
+    <text x="70" y="150" font-family="monospace" font-size="10" fill="#00c8ff">  };</text>
+    <text x="50" y="170" font-family="monospace" font-size="10" fill="#00c8ff">}</text>
+    
+    <text x="330" y="350" font-family="monospace" font-size="10" fill="#00c8ff">const profile = {</text>
+    <text x="350" y="370" font-family="monospace" font-size="10" fill="#00c8ff">  name: "Developer",</text>
+    <text x="350" y="390" font-family="monospace" font-size="10" fill="#00c8ff">  role: "Web Developer",</text>
+    <text x="350" y="410" font-family="monospace" font-size="10" fill="#00c8ff">  loves: "Creating"</text>
+    <text x="330" y="430" font-family="monospace" font-size="10" fill="#00c8ff">};</text>
+  </g>
+  
+  <!-- Glowing effect around the profile -->
+  <circle cx="250" cy="250" r="120" fill="none" stroke="#00c8ff" stroke-width="1" opacity="0.5">
+    <animate attributeName="r" values="120;125;120" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="4s" repeatCount="indefinite" />
+  </circle>
+</svg>
